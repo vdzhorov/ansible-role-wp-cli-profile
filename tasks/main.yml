@@ -1,0 +1,10 @@
+---
+
+- name: Check if profile module has been already installed
+  stat:
+    path: '{{ ansible_facts.env.HOME }}/.wp-cli/packages/vendor/wp-cli/profile-command'
+  register: profile
+
+- name: Install profile module for wp-cli
+  command: 'php -d memory_limit={{ installation_memory_limit }} {{ wp_cli_destination }} package install wp-cli/profile-command --allow-root'
+  when: not profile.stat.exists
