@@ -1,7 +1,7 @@
 ---
 
 dependencies:
-  - ansible-role-wp-cli
+  - vdzhorov.ansible-role-wp-cli
 
 galaxy_info:
   author: vdzhorov
