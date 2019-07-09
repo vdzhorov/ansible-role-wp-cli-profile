@@ -6,7 +6,7 @@ dependencies:
 
 galaxy_info:
   author: vdzhorov
-  description: Install Wordpress CLI tool on the target host.
+  description: Role for installing Wordpress profile tool for wp-cli.
   company: "Delta.BG"
   license: "license (MIT)"
   min_ansible_version: 2.5
