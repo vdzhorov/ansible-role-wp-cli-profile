@@ -19,6 +19,7 @@ galaxy_info:
       versions: all
   galaxy_tags:
     - linux
-    - wp-cli
-    - wodpress profile
+    - wp
+    - cli
+    - profile
     - wordpress
