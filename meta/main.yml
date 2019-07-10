@@ -1,7 +1,9 @@
 ---
 
 dependencies:
-  - ansible-role-wp-cli
+  - src: https://github.com/vdzhorov/ansible-role-wp-cli.git
+    version: master
+    name: vdzhorov.ansible_role_wp_cli
 
 galaxy_info:
   author: vdzhorov
